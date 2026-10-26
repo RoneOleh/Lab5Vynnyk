@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab5Activities</string>
+    <string name="menu_label">LAB 05 · МЕНЮ</string>
+
+    <string name="menu_nav">Навігація</string>
+    <string name="menu_nav_sub">Intent між Activity</string>
+    <string name="menu_interactive">Інтерактивність</string>
+    <string name="menu_interactive_sub">Реакція на дотик</string>
+    <string name="menu_about">Про застосунок</string>
+    <string name="menu_about_sub">Версія та опис</string>
+    <string name="menu_exit">Вийти</string>
+    <string name="menu_exit_sub">Із підтвердженням</string>
+
+    <string name="second_title">Навігація</string>
+    <string name="third_title">Інтерактивність</string>
+    <string name="fourth_title">Про застосунок</string>
+
+    <string name="second_description">Перехід між Activity виконано через Intent. Нижче видно, що саме передали новому екрану.</string>
+    <string name="intent_info_format">from:  MainActivity\nto:    SecondActivity\nextra: title = «%1$s»</string>
+    <string name="third_description">Натискайте на кнопку й дивіться, як екран реагує. Деякі числа особливі.</string>
+    <string name="third_action">Натиснути</string>
+    <string name="third_counter_label">натискань</string>
+    <string name="third_msg_0">Поки що тихо. Спробуйте натиснути.</string>
+    <string name="third_msg_1">Є контакт!</string>
+    <string name="third_msg_5">П\'ять. Непогано для початку.</string>
+    <string name="third_msg_10">Десять! Це варто відсвяткувати.</string>
+    <string name="third_msg_20">Годі, кнопка втомилась.</string>
+    <string name="third_msg_other">Продовжуємо. Кнопка тримається.</string>
+
+    <string name="fourth_description">Навчальний Android-застосунок для демонстрації навігації між чотирма Activity, адаптивних XML-макетів, темної теми й голосового керування українською мовою.</string>
+    <string name="about_version">Версія 1.2 · Java · Android</string>
+    <string name="about_hint">Ще %1$d…</string>
+    <string name="egg_title">Ви знайшли пасхалку</string>
+    <string name="egg_message">Автор бажає вам стабільних збірок і жодного NullPointerException.</string>
+    <string name="egg_ok">Дякую</string>
+
+    <string name="back">← Додому</string>
+
+    <string name="voice_button">Голосове керування</string>
+    <string name="voice_prompt">Скажіть: навігація, інтерактивність, про застосунок, темна тема або вихід</string>
+    <string name="voice_unavailable">На пристрої немає сервісу розпізнавання мовлення.</string>
+    <string name="voice_not_recognized">Не вдалося розпізнати команду. Спробуйте ще раз.</string>
+    <string name="voice_unknown_command">Команду «%1$s» не розпізнано. Скажіть: навігація, інтерактивність, про застосунок, темна чи світла тема, вихід.</string>
+
+    <string name="cd_toggle_theme">Перемкнути тему</string>
+    <string name="theme_to_dark">Нічний режим. Очам дякуємо.</string>
+    <string name="theme_to_light">Світло повернулось.</string>
+
+    <string name="exit_stay">Залишитись</string>
+    <string name="exit_leave_soft">Все одно вийти</string>
+    <string name="exit_leave_final">Вийти</string>
+    <string name="exit_stayed">Ура! Тоді продовжуємо.</string>
+    <string-array name="exit_titles">
+        <item>Вже йдете?</item>
+        <item>Ну будь ласка</item>
+        <item>Добре, добре</item>
+    </string-array>
+    <string-array name="exit_messages">
+        <item>Ми тільки почали. Залишитесь ще на хвилинку?</item>
+        <item>Ми підготували ще три екрани. Вони дуже старались.</item>
+        <item>Не тримаємо. Але будемо сумувати.</item>
+    </string-array>
+</resources>
